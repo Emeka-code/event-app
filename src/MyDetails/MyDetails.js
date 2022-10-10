@@ -467,7 +467,9 @@ const Up7 = styled.div`
   border-radius: 20px;
   color: white;
   font-weight: 600;
+  position: absolute;
   cursor: pointer;
+  /* flex-direction: column; */
   :hover {
     background: white;
     border: 0.7px solid orange;
@@ -481,6 +483,7 @@ const Up7 = styled.div`
   }
   @media screen and (max-width: 375px) {
     display: flex;
+    /* flex-direction: column; */
   }
 `;
 const Up6 = styled.div`
@@ -492,8 +495,10 @@ const Up6 = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 20px;
+  flex-direction: column;
   color: white;
   font-weight: 600;
+  position: absolute;
   cursor: pointer;
   :hover {
     background: white;
@@ -506,6 +511,9 @@ const Up6 = styled.div`
     border: 0.7px solid orange;
     color: orange;
   }
+  /* @media screen and (max-width: 425px) {
+    flex-direction: column;
+  } */
   @media screen and (max-width: 375px) {
     display: none;
   }

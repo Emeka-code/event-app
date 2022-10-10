@@ -129,11 +129,12 @@ const BoggerMenu = styled(GoThreeBars)`
 const Nav = styled.div`
   height: 40px;
   cursor: pointer;
-  margin-left: 12px;
+  margin-left: 15px;
   font-size: 17px;
   /* background: red; */
   font-weight: 700;
   display: flex;
+  flex-direction: column;
   /* justify-content: center;
   align-items: center; */
   :hover {
@@ -178,7 +179,7 @@ const BtnHold = styled.div`
 `;
 const NavHold = styled.div`
   display: flex;
-  width: 350px;
+  width: 370px;
   justify-content: space-between;
   align-items: center;
   /* background: red; */

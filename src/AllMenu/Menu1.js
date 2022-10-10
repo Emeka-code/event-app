@@ -29,7 +29,7 @@ const Container = styled.div`
   z-index: 100px;
   position: absolute;
   font-size: poppins;
-
+  /* right: -5px; */
   top: 50px;
   span {
     width: 100%;

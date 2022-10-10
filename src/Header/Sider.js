@@ -30,6 +30,10 @@ const Holder = styled.div`
   align-items: center;
   font-size: poppins;
   cursor: pointer;
+  @media screen and (max-width: 375px) {
+    margin-left: 10px;
+  }
+  /* background: red; */
 `;
 const Wrapper = styled.div`
   width: 100%;
@@ -43,10 +47,14 @@ const Wrapper = styled.div`
     border-bottom: 1px solid lightgrey;
     width: 80%;
   }
+  @media screen and (max-width: 375px) {
+    align-items: flex-start;
+  }
 `;
 const Container = styled.div`
   width: 250px;
   height: auto;
   /* background: red; */
   position: fixed;
+  left: 0px;
 `;
